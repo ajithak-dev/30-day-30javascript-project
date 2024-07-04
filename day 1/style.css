@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: azure;
+    
+}
+
+/*.conatiner{
+    height: 1000px;
+    width: 1000px;
+    background-color: black;
+    border-radius: 3px;
+    position: relative;
+    
+    
+}*/
+.clock{
+    height: 500px;
+    width: 800px;
+    background-color: azure;
+    position: absolute;
+    top:200px;
+    left: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 20px;
+    border-color: aquamarine;
+    border-radius: 10px;
+    
+    
+}
+.clock .hours{
+    font-size: 200px;
+}
+
+.clock .minute{
+    font-size: 200px;
+}
+
+.clock .seconds{
+    font-size: 200px;
+}
