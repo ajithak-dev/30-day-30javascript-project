@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 400px;
+    width: 300px;
+    background-color: antiquewhite;
+    position: relative;
+    top: 200PX;
+    left: 50%;
+    transform: translate(-50%);
+}
+.numpad{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+table{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    border: none;
+}
+
+table tr,th, td{
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+input, button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
