@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: azure;
+}
+
+.container {
+    position: absolute;
+    height: 700px;
+    width: 1000px;
+    top: 100px;
+    left: 450px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.todo {
+    height:75%;
+    width: 75%;
+    background-color: azure;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+    font-size: 60px;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+}
+
+ul li {
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+    background-color: azure;
+    border-radius: 30px;
+    list-style: none;
+    border-color: black 20px;
+}
+
+.x-btn {
+    font-size: 10px;
+    padding: 10px;
+    margin-left: 20px;
+    background-color: azure;
+    color: black;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.input-task {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: azure;
+    margin: 20px;
+}
+
+button.add-btn {
+    font-size: 10px;
+    padding: 20px;
+    width: 100px;
+    background-color: white;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.check-btn{
+    margin-right: 20px;
+    height: 20px;
+    width: 20px;
+}
