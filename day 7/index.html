@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tip Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <label for="total-amt">Enter the total amount</label>
+        <input type="text" id="total-amt" class="total-amt">
+        
+        <div class="tip">
+            <input type="radio" id="10" name="10" value="10" class="tip-per">
+            <label for="tip-10">10%</label>
+            <input type="radio" id="15" name="15" value="15" class="tip-per">
+            <label for="tip-15">15%</label>
+            <input type="radio" id="20" name="20" value="20" class="tip-per">
+            <label for="tip-20">20%</label>
+            <input type="radio" id="30" name="30" value="30" class="tip-per">
+            <label for="tip-30">30%</label>
+        </div>
+        
+        <h6 class="or">Or</h6>
+        <label for="custom-tip">Custom Tip!!</label>
+        <input type="text" id="custom-tip" class="custom-tip">
+        
+        <button class="btn" onclick="tipCalculator()">Calculate</button>
+        
+        <h2 class="total-tip">$00.00</h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
