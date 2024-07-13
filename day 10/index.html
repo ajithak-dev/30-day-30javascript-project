@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <form
+        id="signupForm"
+        action="go"
+        method="get"
+        onsubmit="return validate()"
+      >
+        <input
+          type="text"
+          name="username"
+          id="username"
+          value="username"
+          required
+          minlength="4"
+        />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          value="password"
+          required
+          minlength="8"
+        />
+        <label for="male">
+          <input type="checkbox" name="gender" id="male" /> Male
+        </label>
+        <label for="female">
+          <input type="checkbox" name="gender" id="female" /> Female
+        </label>
+        <select name="hdyk" id="hdyk" required>
+          <option value="">How did you know about us?</option>
+          <option value="yt">YouTube</option>
+          <option value="fb">Facebook</option>
+          <option value="insta">Instagram</option>
+          <option value="x">X</option>
+        </select>
+        <input type="submit" value="Sign up" />
+      </form>
+    </div>
+    <script src="script.js" defer></script>
+  </body>
+</html>
