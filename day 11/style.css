@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(27, 26, 26);
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.flex-row {
+  display: flex;
+  gap: 10px;
+}
+
+.grid {
+  width: 100px;
+  height: 100px;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.front-card {
+  background-color: rgb(152, 241, 241);
+}
+
+.end-card {
+  background-color: rgb(27, 26, 26);
+}
