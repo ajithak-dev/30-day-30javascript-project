@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Github Profile Finder</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="search">
+        <input
+          type="text"
+          placeholder="Search GitHub Profiles..."
+          id="search-bar"
+        />
+        <button type="btn" onclick="getUser()">Search</button>
+      </div>
+      <div class="details">
+        <img src="pp.png" alt="poster" id="poster" />
+        <h2 class="name">Ajith</h2>
+        <h3 class="bio">Hi, I'm the developer that build this app.</h3>
+        <div class="other-details">
+          <div class="detail-block">
+            <p>Follower</p>
+            <p class="Follower">100</p>
+          </div>
+          <div class="detail-block">
+            <p>Following</p>
+            <p class="Following">20</p>
+          </div>
+          <div class="detail-block">
+            <p>Repos</p>
+            <p class="Repos">5</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
