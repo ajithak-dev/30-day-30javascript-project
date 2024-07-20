@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h5 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  margin: 20px 0;
+  background-color: black;
+  color: white;
+}
+
+.grid-container {
+  justify-content: center;
+  gap: 10px;
+  width: 100vw;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: auto;
+  margin-left: 10px;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+}
