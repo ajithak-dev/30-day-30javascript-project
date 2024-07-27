@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Blogging Platform</title>
+  </head>
+  <body>
+    <header>
+      <h1>My Blogging Platform</h1>
+    </header>
+    <div class="container">
+      <div class="blogs">
+        <div class="blog">
+          <h2>Sample Blog Post 1</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In eveniet
+            cumque necessitatibus iusto reiciendis, corporis laudantium est,
+            reprehenderit magni voluptatum unde culpa deserunt dolor? Ipsa quod
+            temporibus officia eaque eos.
+          </p>
+        </div>
+        <div class="blog">
+          <h2>Sample Blog Post 2</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In eveniet
+            cumque necessitatibus iusto reiciendis, corporis laudantium est,
+            reprehenderit magni voluptatum unde culpa deserunt dolor? Ipsa quod
+            temporibus officia eaque eos.
+          </p>
+        </div>
+      </div>
+      <button class="add-new-btn" onclick="revealContainer()">+</button>
+    </div>
+    <div class="blog-container" id="blogContainer">
+      <div class="new-blog">
+        <input type="text" id="title" placeholder="Title" />
+        <textarea
+          id="content"
+          placeholder="Type your blog post here..."
+        ></textarea>
+        <div class="controls">
+          <button class="close-btn" onclick="closeContainer()">Close</button>
+          <button class="publish-btn" onclick="publishContent()">
+            Publish
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
