@@ -40,7 +40,7 @@ async function initialLoad() {
     })
     .catch((error) => {
       console.error("Error fetching or processing data:", error);
-      crypto.innerHTML = `<p>Error loading data. Please try again later.</p>`; // Changed container to crypto
+      crypto.innerHTML = `<p>Error loading data. Please try again later.</p>`; 
     });
 }
 
