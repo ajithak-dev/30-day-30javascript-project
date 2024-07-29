@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Expenses Tracker</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="stats">
+        <h5>Expense Tracker</h5>
+        <h3>Income:</h3>
+        <h2 class="income-status">$0</h2>
+        <h3>Expenses:</h3>
+        <h2 class="expenses-status">$0</h2>
+      </div>
+      <div class="transactions">
+        <!-- Dynamic content -->
+      </div>
+      <div class="add-transaction" id="addTransactionForm">
+        <input type="text" placeholder="Name of transaction" id="name" />
+        <input
+          type="text"
+          placeholder="Category of transaction"
+          id="category"
+        />
+        <input type="text" placeholder="amount" id="amount" />
+
+        <div class="nature-container">
+          <div class="nature-option">
+            <input
+              type="radio"
+              id="income"
+              name="nature"
+              value="income"
+              class="nature"
+            />
+            <label for="income">Income</label>
+          </div>
+          <div class="nature-option">
+            <input
+              type="radio"
+              id="expense"
+              name="nature"
+              value="expense"
+              class="nature"
+            />
+            <label for="expense">Expense</label>
+          </div>
+        </div>
+
+        <button class="add-btn" onclick="addTransaction()">Add</button>
+        <button class="close-btn">Close</button>
+      </div>
+      <div class="add-transaction-btn">
+        <button class="addplusbtn" id="showAddTransaction">+</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
