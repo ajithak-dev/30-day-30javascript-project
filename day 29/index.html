@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Collaborative Code Editor</title>
+  </head>
+  <body>
+    <div class="editor-container">
+      <header>
+        <h1>Collaborative Code Editor</h1>
+      </header>
+      <div class="workspace">
+        <div class="editor-wrapper">
+          <h2>User 1</h2>
+          <textarea
+            class="code-editor"
+            id="editor1"
+            spellcheck="false"
+          ></textarea>
+        </div>
+        <div class="editor-wrapper">
+          <h2>User 2</h2>
+          <textarea
+            class="code-editor"
+            id="editor2"
+            spellcheck="false"
+          ></textarea>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
