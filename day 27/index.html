@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Image Gallery with Filter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Image Gallery</h1>
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">Show All</button>
+        <button class="filter-btn" data-filter="house">Houses</button>
+        <button class="filter-btn" data-filter="animals">Animals</button>
+        <button class="filter-btn" data-filter="people">People</button>
+      </div>
+      <div class="image-gallery">
+        <div class="image-item" data-category="house">
+          <img
+            src="https://images.unsplash.com/photo-1518780664697-55e3ad937233"
+            alt="House 1"
+          />
+        </div>
+        <div class="image-item" data-category="house">
+          <img
+            src="https://images.unsplash.com/photo-1568605114967-8130f3a36994"
+            alt="House 2"
+          />
+        </div>
+        <div class="image-item" data-category="animals">
+          <img
+            src="https://images.unsplash.com/photo-1474511320723-9a56873867b5"
+            alt="Animal 1"
+          />
+        </div>
+        <div class="image-item" data-category="animals">
+          <img
+            src="https://images.unsplash.com/photo-1517849845537-4d257902454a"
+            alt="Animal 2"
+          />
+        </div>
+        <div class="image-item" data-category="people">
+          <img
+            src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80"
+            alt="Person 1"
+          />
+        </div>
+        <div class="image-item" data-category="people">
+          <img
+            src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d"
+            alt="Person 2"
+          />
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
